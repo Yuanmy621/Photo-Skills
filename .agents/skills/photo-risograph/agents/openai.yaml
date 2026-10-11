@@ -1,0 +1,3 @@
+interface:
+  display_name: "双色孔版印刷"
+  short_description: "将照片转为少量专色、网点和轻微套印偏移构成的孔版印刷风格海报"

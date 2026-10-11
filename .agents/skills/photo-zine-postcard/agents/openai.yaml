@@ -1,0 +1,3 @@
+interface:
+  display_name: "留白照片明信片"
+  short_description: "保留原始照片与比例，搭配照片中提取的手绘小景和留白明信片版式"

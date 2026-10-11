@@ -1,0 +1,3 @@
+interface:
+  display_name: "电影氛围调色"
+  short_description: "依据照片现有光线进行电影氛围调色，保留人物身份与真实场景结构"
