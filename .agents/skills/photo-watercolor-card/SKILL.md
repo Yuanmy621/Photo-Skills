@@ -1,11 +1,11 @@
 ---
 name: photo-watercolor-card
-description: 将旅行照片转绘为钢笔线稿与透明水彩旅行卡，可加入邮票齿孔、标题与简洁档案栏。用于钢笔淡彩、旅行水彩卡、水彩邮票风格；厚涂油画、保留摄影的明信片或纯调色不使用此技能。
+description: 将照片转绘为透明水彩旅行纪念卡，搭配选择性钢笔结构、穿孔分界与窄档案栏。用于水彩旅行记忆卡、穿孔水彩卡、钢笔淡彩；厚涂油画、摄影明信片和纯调色不使用此技能。
 ---
 
-# 钢笔水彩旅行卡
+# 水彩旅行纪念卡
 
-以钢笔结构保留照片辨识度，以透明水彩表达光与色；纸白承担高光。默认生成一张竖版 3:4 的旅行卡，用户指定无框水彩时去掉卡片装饰。
+以透明水彩表达光与色，选择性钢笔结构保留照片辨识度，纸白承担高光。默认生成一张竖版 2:3 的旅行纪念卡，主画面与窄档案栏之间用穿孔线分隔；用户指定无框水彩时去掉卡片装饰。
 
 ## 输入与现实锚点
 
@@ -15,10 +15,11 @@ description: 将旅行照片转绘为钢笔线稿与透明水彩旅行卡，可�
 
 ## 转绘与卡片设计
 
-- 使用有轻重变化的细钢笔线，关键轮廓清楚，内部排线少量即可。远景更轻，避免把每片叶子、每个砖块都描出来。
+- 水彩是主视觉，钢笔线只选择性说明关键轮廓；内部排线少量即可。远景更轻，避免把每片叶子、每个砖块都描出来，或把作品变成均匀描边的漫画。
 - 水彩为透明叠色、局部晕开和纸白留光；边缘有干湿变化。禁止厚重不透明涂层、塑料渐变和全幅模糊滤镜。
 - 有人物时保留身份、姿势、服饰与人数；可以简化笔触，不能换脸或增添人物。建筑不能重组为别处地标。
-- 旅行卡默认浅色纸边，可用均匀齿孔形成邮票感；边缘不碰主体。顶部短标题、底部两三个档案字段都为可选项，用户要求纯画面时全部移除。
+- 旅行卡默认浅色纸底，画面占主要区域，右侧留一条较窄的档案栏；两者之间用一列细小均匀的穿孔分界。人物、建筑不能被穿孔截断，宽幅源图可改成上下分区。
+- 短标题与两三个档案字段为可选项。标题与地点、日期按用户文字使用，未提供时不画空白伪字段、不编地点；无字版仍可靠水彩、纸边与细穿孔成立。用户指定邮票风格时才使用四周齿孔，纯画面时全部移除。
 - 中文、英文或双语均可按要求使用。精确文字较多时优先生成画面，再使用可用排版工具叠加准确文本；没有排版能力时保留可编辑的无字成品并说明文字限制，不擅自改语言。
 - 不自动清除原图中的签名、水印或重要招牌；需要调整时以用户明确的编辑要求为准。
 
@@ -40,7 +41,7 @@ details remain lighter and less descriptive.
 Use transparent washes of {source_palette}, with reserved white-paper
 highlights, restrained pigment pooling, and a few soft wet edges.
 Retain the source's {weather_light_and_temperature}.
-Card treatment: {paper_border_perforations_or_borderless}.
+Card treatment: {watercolor_panel_and_narrow_perforated_archive_column_or_borderless}.
 Text: {exact_user_text_language_and_placement_or_no_text}.
 No thick impasto, opaque acrylic, invented landmarks, changed faces,
 default sunny sky, heavy grunge, or extra lettering. Flat artwork, no mockup.
@@ -50,6 +51,7 @@ default sunny sky, heavy grunge, or extra lettering. Flat artwork, no mockup.
 
 - 主体轮廓、人数、姿势及建筑关键结构对应源图。
 - 同时看得到钢笔结构与透明水彩，纸白没有被全部涂满。
+- 纪念卡的水彩主画面与窄栏有清晰层级，穿孔是一条分界，不是覆盖整张图的圆点装饰。
 - 天气与色温有照片依据，边缘装饰未压住主体。
 - 水彩变油画时减薄色层；线条太密时删内部纹理；认不出主体时恢复关键轮廓；文字按原文核对。
 
